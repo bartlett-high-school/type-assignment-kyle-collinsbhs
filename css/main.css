@@ -2,6 +2,63 @@
 
 
 /* Start the CSS*/
+@font-face {
+    font-family: 'cantarellbold';
+    src: url('../fonts/cantarell-bold-webfont.woff2') format('woff2'),
+         url('../fonts/cantarell-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'cantarellboldoblique';
+    src: url('../fonts/cantarell-boldoblique-webfont.woff2') format('woff2'),
+         url('../fonts/cantarell-boldoblique-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'cantarelloblique';
+    src: url('../fonts/cantarell-oblique-webfont.woff2') format('woff2'),
+         url('../fonts/cantarell-oblique-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'cantarellregular';
+    src: url('../fonts/cantarell-regular-webfont.woff2') format('woff2'),
+         url('../fonts/cantarell-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'chunkfiveroman';
+    src: url('../fonts/chunkfive-webfont.woff2') format('woff2'),
+         url('../fonts/chunkfive-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -21,30 +78,12 @@ body {
 	box-shadow: 0px 0px 15px 5px rgba(0,0,0,.15);
 }
 
-h1 {
-
-}
-
-h2 {
-
-}
-
-h3 {
-
-}
-
-h4 {
-
-}
-
-h5 {
-
-}
-
-h6 {
-
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'chunkfiveroman', serif;
+	font-style: normal;
 }
 
 p {
-
+	font-family: 'cantarellregular', sans-serif;
+	font-style: normal;
 }
